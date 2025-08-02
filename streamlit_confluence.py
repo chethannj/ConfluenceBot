@@ -59,8 +59,8 @@ User Question: {question}
 Answer:"""
 
 # -------- Streamlit UI --------
-st.set_page_config(page_title="QA Assistant for Confluence")
-st.title("🧠 Confluence QA Assistant")
+st.set_page_config(page_title="Confluence Chatbot")
+st.title("🧠 Confluence Assistant")
 st.markdown("Ask questions about a Confluence page.")
 
 page_id = st.text_input("🔢 Confluence Page ID", placeholder="e.g., 131247")
