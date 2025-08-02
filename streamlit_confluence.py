@@ -64,7 +64,7 @@ st.title("🧠 Confluence QA Assistant")
 st.markdown("Ask questions about a Confluence page.")
 
 page_id = st.text_input("🔢 Confluence Page ID", placeholder="e.g., 131247")
-question = st.text_area("💬 Your Question", placeholder="e.g., What is the test strategy summary?")
+question = st.text_area("💬 Your Question", placeholder="e.g., What is the problem statement?")
 
 if st.button("Ask"):
     if not page_id or not question:
